@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name "POT")(type "Legacy")(uri "${KIPRJMOD}/lib/pot/POT_3299W-1-104LF.lib")(options "")(descr ""))
+  (lib (name "MIC")(type "Legacy")(uri "${KIPRJMOD}/lib/mic/MIC_CMA-4544PF-W.lib")(options "")(descr ""))
+  (lib (name "SWITCH")(type "Legacy")(uri "${KIPRJMOD}/lib/switch/SW_100AWDP1T2B4M2QE.lib")(options "")(descr ""))
+  (lib (name "LED")(type "Legacy")(uri "${KIPRJMOD}/lib/led/LED_151054RS03000.lib")(options "")(descr ""))
+)
