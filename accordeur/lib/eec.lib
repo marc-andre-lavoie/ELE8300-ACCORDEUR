@@ -1,0 +1,62 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# TI National Semiconductor LM358N
+#
+DEF LM358N U 0 40 Y Y 2 L N
+F0 "U" 0 300 50 H V L CNN 
+F1 "LM358N" 0 400 50 H V L CNN 
+F2 "TI_National_Semiconductor-LM358N-*" 0 500 50 H I L CNN 
+F3 "" 0 600 50 H I L CNN 
+F4 "MS-001-BA" 0 700 50 H I L CNN "Code  JEDEC"
+F5 "Amplifiers" 0 800 50 H I L CNN "Comp Type"
+F6 "LM358 Datasheet" 0 900 50 H I L CNN "Component Link 1 Description"
+F7 "http://www.national.com/ds/LM/LM358.pdf" 0 1000 50 H I L CNN "Component Link 1 URL"
+F8 "LM358 Web Page" 0 1100 50 H I L CNN "Component Link 2 Description"
+F9 "http://www.national.com/pf/LM/LM358.html" 0 1200 50 H I L CNN "Component Link 2 URL"
+F10 "N08E Package Page" 0 1300 50 H I L CNN "Component Link 3 Description"
+F11 "http://www.national.com/packaging/folders/n08e.html" 0 1400 50 H I L CNN "Component Link 3 URL"
+F12 "Oct-2005" 0 1500 50 H I L CNN "Datasheet Version"
+F13 "MDIP, .365 x .250 x .130in, 8 Lead, .100in Pitch" 0 1600 50 H I L CNN "Package Description"
+F14 "NSUZXYTTE#*LM*358N" 0 1700 50 H I L CNN "Package Top Marking"
+F15 "revG, May-2006" 0 1800 50 H I L CNN "Package Version"
+F16 "8" 0 1900 50 H I L CNN "Pin Count"
+F17 "N" 0 2000 50 H I L CNN "Power Wise"
+F18 "IC" 0 2100 50 H I L CNN "category"
+F19 "da6c9453077b03df" 0 2200 50 H I L CNN "library id"
+F20 "TI National Semiconductor" 0 2300 50 H I L CNN "manufacturer"
+F21 "N08E" 0 2400 50 H I L CNN "package"
+F22 "No" 0 2500 50 H I L CNN "rohs"
+F23 "F3D06B52-5F68-432D-B541-31494EC13965" 0 2600 50 H I L CNN "vault revision"
+F24 "yes" 0 2700 50 H I L CNN "imported"
+DRAW
+X INA+ 3 100 -200 100 R 40 0 1 1 U 
+X INA- 2 100 0 100 R 40 0 1 1 U 
+X OUTA 1 700 -100 100 L 40 0 1 1 U 
+X V+ 8 400 200 100 D 40 0 1 1 U 
+X GND 4 400 -400 100 U 40 0 1 1 U 
+P 2 1 1 0 200 100 600 -100 N
+P 2 1 1 0 200 -300 600 -100 N
+P 2 1 1 0 200 100 200 -300 N
+P 2 1 1 0 240 0 300 0 N
+P 2 1 1 0 240 -200 300 -200 N
+P 2 1 1 0 270 -170 270 -230 N
+P 2 1 1 0 400 100 400 0 N
+P 2 1 1 0 400 -200 400 -300 N
+X INB- 6 100 0 100 R 40 0 2 1 U 
+X INB+ 5 100 -200 100 R 40 0 2 1 U 
+X OUTB 7 700 -100 100 L 40 0 2 1 U 
+X V+ 8 400 200 100 D 40 0 2 1 U 
+X GND 4 400 -400 100 U 40 0 2 1 U 
+P 2 2 1 0 200 100 600 -100 N
+P 2 2 1 0 200 -300 600 -100 N
+P 2 2 1 0 200 100 200 -300 N
+P 2 2 1 0 240 0 300 0 N
+P 2 2 1 0 240 -200 300 -200 N
+P 2 2 1 0 270 -170 270 -230 N
+P 2 2 1 0 400 100 400 0 N
+P 2 2 1 0 400 -200 400 -300 N
+ENDDRAW
+ENDDEF
+#
+# End Library
