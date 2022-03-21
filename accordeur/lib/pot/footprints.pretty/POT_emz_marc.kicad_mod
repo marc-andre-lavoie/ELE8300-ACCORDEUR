@@ -1,4 +1,4 @@
-(footprint "POT_3299W-1-104LF" (version 20211014) (generator pcbnew)
+(footprint "POT_emz_marc" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
   (tedit 6237A0A7)
   (attr through_hole)
